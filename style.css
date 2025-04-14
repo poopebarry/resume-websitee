@@ -1,11 +1,90 @@
-body
-{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Sans-Serif;
-    color: #f4f3ef;
-    font-size: 9pt;
-    .container  
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #f4f3ef;
+  font-size: 9pt;
+  background-color: #82a5b2;
+}
+
+.container {
+  text-align: center;
 }
 
 
-body {background-color: #82a5b2;}
-    
+.container {
+  display: flex;
+}
+
+#col-1 {
+  background-color: yellow;
+  flex: 1;
+}
+
+#col-2 {
+  background-color: orange;
+  flex: 1;
+}
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 10 border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Section Styling */
+main {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #4CAF50;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
